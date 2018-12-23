@@ -17,3 +17,31 @@ module.exports = {
             sql.close());
     }
 };
+
+/*
+const Sequelize = require("sequelize");
+const connection = require("./settings/connection.json");
+const DISABLE_SEQUELIZE_DEFAULTS = {
+    timestamps : false,
+    freezeTableName: true
+};
+const {DataTypes } = Sequelize;
+const sequelize = new Sequelize(
+    {
+        database : connection.database,
+        username : connection.user,
+        host: connection.host,
+        port: connection.port,
+        password: connection.password,
+        dialect : "mssql",
+        operatorsAliases: false
+    }
+);
+
+const Item = sequelize.define('item',
+    {
+        Id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+        Name : { type: DataTypes.STRING },
+        DateEntered : { type : DataTypes.DATE }
+    }, DISABLE_SEQUELIZE_DEFAULTS);
+*/

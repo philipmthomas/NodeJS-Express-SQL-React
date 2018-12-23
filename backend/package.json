@@ -7,7 +7,9 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
-    "mssql": "^4.3.0"
+    "mssql": "^4.3.0",
+    "pg": "^7.7.1",
+    "sequelize": "^4.42.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
