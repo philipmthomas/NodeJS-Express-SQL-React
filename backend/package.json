@@ -1,0 +1,19 @@
+{
+  "name": "ultimateshoppingexperienceapi",
+  "version": "1.0.0",
+  "description": "UltimateShoppingExperience API",
+  "main": "ItemController.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mssql": "^4.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Philip Thomas",
+  "email": "phthomas@me.com",
+  "license": "ISC"
+}
