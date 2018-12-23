@@ -1,21 +1,14 @@
 
 const sql = require("mssql");
-const dbConfig = {
-    user: "sa",
-    password: "myPassw0rd",
-    server: "localhost",
-    database: "MyChemicalRomance"
-};
+const database = require("./Database");
 
 module.exports = {
     executeQuery : function(res, query)
     {
-        let connectionPool = new sql.ConnectionPool(dbConfig);
+        const connectionPool = new sql.ConnectionPool(database.GetSettings());
 
         connectionPool.connect().then(pool =>
-        {
-            return pool.request().query(query)
-        }).then(result =>
+            pool.request().query(query)).then(result =>
         {
             let rows = result.recordset;
             res.setHeader('Access-Control-Allow-Origin','*');
