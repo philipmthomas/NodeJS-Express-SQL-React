@@ -34,6 +34,19 @@ module.exports = {
                 DateEntered: {type: Sequelize.DATE}
             }, DISABLE_SEQUELIZE_DEFAULTS);
 
-        return {Item, sequelize};
+        function SequelizeCommandExecute(callback) {
+            sequelize
+                .authenticate()
+                .then(() => {
+                    console.log("connection has been established successfully.");
+
+                    callback();
+                })
+                .catch(err => {
+                    console.error("Unable to connect to the database.", err);
+                });
+        }
+
+        return {Item, SequelizeCommandExecute };
     }
 };
