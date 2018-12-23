@@ -1,6 +1,7 @@
 {
-  "host" : "localhost",
-  "database" : "MyChemicalRomance",
-  "user" : "sa",
-  "password" : "myPassw0rd"
+  "host": "localhost",
+  "database": "MyChemicalRomance",
+  "user": "sa",
+  "password": "myPassw0rd",
+  "dialect": "mssql"
 }
