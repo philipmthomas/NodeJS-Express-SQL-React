@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf14cb7b-b46c-4557-a95f-5fc289b3dc2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/Common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/Database.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ItemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ItemController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Repository.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/ItemController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="138">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -31,17 +28,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/Common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="46">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/Repository.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -50,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/backend/Database.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -75,9 +72,9 @@
         <option value="$PROJECT_DIR$/backend/tools.js" />
         <option value="$PROJECT_DIR$/backend/CommonInitialization.js" />
         <option value="$PROJECT_DIR$/backend/BaseController.js" />
-        <option value="$PROJECT_DIR$/backend/Common.js" />
-        <option value="$PROJECT_DIR$/backend/ItemController.js" />
         <option value="$PROJECT_DIR$/backend/DatabaseConfiguration.js" />
+        <option value="$PROJECT_DIR$/backend/ItemController.js" />
+        <option value="$PROJECT_DIR$/backend/Common.js" />
         <option value="$PROJECT_DIR$/backend/Repository.js" />
       </list>
     </option>
@@ -142,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545575278345</updated>
-      <workItem from="1545575279599" duration="3546000" />
+      <workItem from="1545575279599" duration="4428000" />
     </task>
     <task id="LOCAL-00001" summary="some refactoring">
       <created>1545576223184</created>
@@ -151,11 +148,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545576223184</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="more refactoring">
+      <created>1545578888173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545578888173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3546000" />
+    <option name="totallyTimeSpent" value="4428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2364" y="37" width="1323" height="986" extended-state="0" />
@@ -184,7 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="some refactoring" />
+    <MESSAGE value="more refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="more refactoring" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client.old/src/App.test.js">
@@ -210,28 +215,28 @@
     <entry file="file://$PROJECT_DIR$/backend/Database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/Repository.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/Common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/ItemController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/Repository.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
